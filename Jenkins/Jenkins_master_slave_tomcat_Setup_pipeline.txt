@@ -201,3 +201,26 @@ pipeline {
         }
     }
 }
+
+
+install the plugin "publish over shh"
+restart the jenkins
+go to manage jenkins and
+system
+under publish over ssh
+add server
+QA-server
+devopsadmin
+tomcat private ip
+remote dir:/opt/tomcat9/webapps
+click on passwd authentication
+give the private key and test conf
+
+to generate pipeline script
+click on pipeline syntax
+click on ssh publish
+add the server
+add the target/file.war
+/traget
+.
+generate the script
